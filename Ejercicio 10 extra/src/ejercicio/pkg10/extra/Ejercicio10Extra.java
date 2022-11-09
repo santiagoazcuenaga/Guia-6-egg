@@ -22,34 +22,31 @@ al usuario ingresar su respuesta nuevamente. Para realizar este ejercicio invest
 utilizar la función Math.random() de Java.
      */
     public static void main(String[] args) {
-    Scanner leer = new Scanner (System.in);
-   
-    int respuesta;
-    int respcorrecta;
-    boolean correcto;
-    correcto = false;
-    
-    
-int numero=(int)(Math.random() * 10);
-int numero2 =(int)(Math.random() * 10);
-  
-       System.out.println("adivine la multiplicacion entre "+( numero +" y "+ numero2 )+ ""  );
+        Scanner leer = new Scanner(System.in);
+
+        int respuesta;
+        int respcorrecta;
+        boolean correcto;
+        correcto = false;
+
+        int numero = (int) (Math.random() * 10);
+        int numero2 = (int) (Math.random() * 10);
+
+        System.out.println("adivine la multiplicacion entre " + (numero + " y " + numero2) + "");
         respcorrecta = numero * numero2;
-       respuesta = leer.nextInt();
-       
-       if (respuesta == respcorrecta){
-           System.out.println("respuesta correcta");
-           
-       
-    }else{
-          do{
-           System.out.println("respuesta incorrecta, intentelo nuevamente");
-           respuesta = leer.nextInt();
-          
-          
-       } while (respuesta != respcorrecta);
-       
-   
+        respuesta = leer.nextInt();
+
+        if (respuesta == respcorrecta) {
+            System.out.println("respuesta correcta");
+
+        } else {
+            do {
+                System.out.println("respuesta incorrecta, intentelo nuevamente");
+                respuesta = leer.nextInt();
+
+            } while (respuesta != respcorrecta);
+
+
     }
 }
 }

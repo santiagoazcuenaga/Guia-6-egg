@@ -36,7 +36,7 @@ public class Ejercicio23SopaDeLetras {
         }
     int cant =0;
         while (cant<10){
-            System.out.print("Ingresa uan palabra de 3 a 5 caracteres: ");
+            System.out.print("Ingresa una palabra de 3 a 5 caracteres: ");
             String palabra=leer.nextLine();
             if(palabra.length()<6 && palabra.length()>2){
                 

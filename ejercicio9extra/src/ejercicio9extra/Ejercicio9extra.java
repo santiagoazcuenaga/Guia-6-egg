@@ -5,6 +5,8 @@
  */
 package ejercicio9extra;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Usuario

@@ -12,7 +12,7 @@ import java.util.Scanner;
  */
 public class circu {
       private double radio;
-
+private double rr;
     public circu(double radio) {
         this.radio = radio;
     }
